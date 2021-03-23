@@ -117,4 +117,20 @@ git push heroku main
 
 npm i cross-env
 
-git add . && git commit -m "v3" && git push heroku main
+git add . && git commit -m "v4" && git push heroku main
+
+
+https://api-kelsonthony-heroes.herokuapp.com/
+
+
+PM2
+
+npm install -g pm2
+
+npm install pm2
+
+"scripts": {
+  "prod:start": "pm2-runtime app.js"
+}
+
+

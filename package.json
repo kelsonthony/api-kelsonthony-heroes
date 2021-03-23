@@ -7,7 +7,7 @@
     "test": "mocha --timeout 10000 src/tests/*.js",
     "test:watch": "mocha --timeout 10000 src/tests/*.js -w ",
     "test:prod": "cross-env NODE_ENV=prod npm t",
-    "prod": "cross-env NODE_ENV=prod node api.js"
+    "prod": "cross-env NODE_ENV=prod pm2-runtime api.js"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +26,7 @@
     "mongoose": "5.11.15",
     "pg": "^8.5.1",
     "pg-hstore": "^2.3.3",
+    "pm2": "^4.5.5",
     "sequelize": "5.21.11",
     "vision": "5.4.3"
   },
