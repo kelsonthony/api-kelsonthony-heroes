@@ -134,3 +134,10 @@ npm install pm2
 }
 
 
+pm2 start --name herois -i 10 api.js
+
+pm2 monit
+
+pm2 kill
+
+heroku config:set PM2_PUBLIC_KEY=a0ueats246wbicw PM2_SECRET_KEY=01wx6ml5rfdk7cs
