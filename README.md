@@ -116,3 +116,5 @@ git commit -m "v1"
 git push heroku main
 
 npm i cross-env
+
+git add . && git commit -m "v3" && git push heroku main
