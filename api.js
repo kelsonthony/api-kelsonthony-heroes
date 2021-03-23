@@ -57,7 +57,7 @@ async function main() {
     const swaggerOptions = {
         info: {
             title: 'API Heroes',
-            version: 'v1.0'
+            version: 'v2.0'
         },
         lang: 'pt'
     }
