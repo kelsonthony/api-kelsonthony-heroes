@@ -141,3 +141,5 @@ pm2 monit
 pm2 kill
 
 heroku config:set PM2_PUBLIC_KEY=a0ueats246wbicw PM2_SECRET_KEY=01wx6ml5rfdk7cs
+
+pm2 link 01wx6ml5rfdk7cs a0ueats246wbicw
